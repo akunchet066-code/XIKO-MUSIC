@@ -13,7 +13,7 @@
            java-version: '17'
            distribution: 'temurin'
        - name: Build APK
-         run: cd XIKO-MUSIC && chmod +x gradlew &&./gradlew assembleDebug
+         run: cd XIKO-MUSIC && chmod +x gradlew && ./gradlew assembleDebug
        - name: Upload APK
          uses: actions/upload-artifact@v4
          with:
